@@ -1,0 +1,1505 @@
+*{
+font-family:"Roboto",Arial,sans-serif;
+box-sizing: border-box;
+}
+body{
+    background: hsl(0, 0%, 0%);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-top: 120px;
+    width: 100%;
+   
+}
+.header{
+    display: flex;
+    align-items: center;
+   
+}
+
+
+   
+
+   
+.header .image{
+    height:50px;
+    width:150px;    
+}
+.search{
+    display: flex;
+    height: 45px;
+    /* max-width: 900px; */
+    margin-left: 16%;
+    overflow: hidden;
+}
+
+.s{
+    width: 50px;
+    background: rgb(79, 78, 78);
+    border-radius: 0 50% 50% 0;
+    border: 1px solid   rgb(79, 78, 78);
+    color: white;
+  
+}
+.ss{
+    
+    width: 500px;
+    background: black;
+    border: 1px solid   rgb(79, 78, 78);
+    border-radius: 22px 0 0 22px;
+    font-size: 20px;
+    padding-left: 15px;
+    
+}
+.header .mic{
+  height: 40px;
+  width:40px;
+  border-radius: 50%;
+  color: white;
+  background:  rgb(79, 78, 78);
+  border: 0;
+  margin-left: 20px;
+    
+}
+.header .create{
+    width:80px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    
+    background: rgb(79, 78, 78);
+    border: 0;
+    color: white;
+    font-size: 15px;
+  }
+.header .soul  img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   
+}
+.block{
+   
+    display: flex;
+    align-items: center;
+   
+   
+    justify-content: space-evenly;
+    gap:15px;
+    margin-left: 90px;
+  
+}
+.sidemenu { 
+  display: flex;
+  flex-direction: column;
+    width: 12%;
+    height: 610px;
+    overflow: scroll;
+    position: fixed;
+    top:18px;
+    margin-top: 100px;
+    
+
+}
+
+
+.sidemenu .b{
+    
+    display: flex;
+    flex-direction: column;
+    float: left;
+    
+}
+.sidemenu .b button{
+    width: 150px;
+    padding: 15px;
+    border-radius:8px ;
+    color: white;
+    background: black;
+    font-weight: 700;
+    border:0;
+    
+}
+.sidemenu .b button:hover{
+    background: rgb(79, 78, 78);
+}
+
+.sidemenu .b{
+    border-bottom: 1px solid rgb(79, 78, 78);
+}
+.sidemenu.sidemenu::-webkit-scrollbar{
+   display: none;
+}
+.b button img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+margin-right: 5px;}
+
+.b button{
+    display: flex;
+}
+.b button i{
+    margin-right: 5px;
+}
+nav button{
+    flex:0 0 auto;
+    color:white;
+    font-weight: 600;
+    background: rgb(79, 78, 78);
+    padding: 6px;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 10px;
+    
+    
+}
+nav {
+    padding: 10px;
+   
+    display: flex;
+    flex-direction: row;    
+    overflow: scroll;
+    
+    max-width: 85%;
+   float: right;
+   backdrop-filter: blur(30px);
+}
+nav::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.container{
+   
+   border: 1px solid rgb(0, 0, 0);
+   position: relative;
+    height: 335px;
+    width: 398px;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.x {
+    
+    display: flex;
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 85%;
+   float: right; 
+  
+}
+
+.menu{
+    background: black;
+    color: white;
+    border: 0;
+}
+
+.menu:hover{
+    background:rgb(79, 78, 78) ;
+}
+.menu:hover .sidemenu .b{
+    display:flex;
+}
+.x .reload img{
+    height: 30px;
+    width:100px ;
+}
+
+.fix{
+    position: fixed;
+    top:0;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+.container img{
+    
+    margin-right: 10px;
+     height: 250px;
+    width: 398px;
+    border-radius: 5px;
+    margin: 6px;
+   margin: 0;
+    
+    
+}
+
+
+.container .logo img{
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.container .content p:first-child{
+    color: white;
+}
+ .container .content p:nth-of-type(n+2){
+   color: rgb(121, 120, 120);
+   font-weight: 400;
+}
+
+.container .content{
+     position: absolute;
+     top:265px;
+     padding-left: 50px;
+    
+     
+     
+    
+     
+}
+
+.container p{
+    margin-top: 2px;
+   margin-bottom: 2px;
+   
+}
+
+.container:hover{
+    border: 1px solid rgb(171, 171, 171);
+}
+
+
+
+@media only screen and (max-width:1281px) {
+
+       body{
+        color: rgb(45, 0, 246);
+        padding: 20px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top:2px;
+        margin-left: 50px;
+        
+        justify-content: none;
+        height: 51px;
+       
+        
+        
+        
+    }
+    .s{
+        width: 50px;
+        height: 50px;
+        
+    }
+    .ss{
+        width: 600px;
+        height: 50px;
+        
+      
+        
+       
+    }
+    .header .image{
+        margin-top: 5px;
+    height: 70px;
+    width:170px;
+}
+    
+
+    .header .create{
+        display: block;
+    }
+.header .mic{
+    margin-top: px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    
+}
+.block{
+padding: 2px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.sidemenu{
+    padding-top: 10px;
+    
+    width: 150px;
+    height:85%;
+    display: block;
+}
+.block .soul img{
+    height: 50px;
+    width: 55px;
+}
+nav{
+max-width: 1050px;
+float: left;
+margin-left: 130px;
+
+
+}
+
+.x{
+    
+    margin-left: 180px;
+}   
+.container img{
+    height: 180px;
+    width: 280px;
+}
+.container .content{
+     
+     top:190px;}
+.container{
+    
+    height: 270px;
+    width:281px ;
+    
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 0px;
+    
+}
+}
+
+
+@media only screen and (max-width:1025px) {
+
+       body{
+        color: rgb(174, 174, 174);
+        padding: 20px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top:2px;
+        margin-left: 50px;
+        
+        justify-content: none;
+        height: 51px;
+       
+        
+        
+        
+    }
+    .s{
+        width: 50px;
+        height: 50px;
+        
+    }
+    .ss{
+        width: 400px;
+        height: 50px;
+        
+      
+        
+       
+    }
+    .header .image{
+        margin-top: 5px;
+    height: 70px;
+    width:170px;
+}
+    
+
+    .header .create{
+        display: block;
+    }
+.header .mic{
+    margin-top: px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    
+}
+.block{
+padding: 2px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.sidemenu{
+    padding-top: 10px;
+    
+    width: 150px;
+    height:80%;
+    display: block;
+}
+.block .soul img{
+    height: 50px;
+    width: 55px;
+}
+nav{
+max-width: 850px;
+float: left;
+margin-left: 130px;
+
+
+}
+
+.x{
+    
+    margin-left: 180px;
+}   
+.container img{
+    height: 220px;
+    width: 320px;
+}
+.container .content{
+     
+     top:230px;}
+.container{
+    
+    height: 315px;
+    width:321px ;
+    
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 0px;
+    
+}
+}
+
+
+
+@media only screen and (max-width:1024px) {
+
+       body{
+        color: rgb(45, 0, 246);
+        padding: 20px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top:25px;
+        margin-left: 40px;
+        border-radius: 10px;
+        justify-content: none;
+        margin-bottom: 20px;
+        
+        
+        
+    }
+    .s{
+        width: 40px;
+        height: 40px;
+        
+    }
+    .ss{
+        width: 400px;
+        height: 40px;
+      
+        
+       
+    }
+    .header .image{
+        margin-top: 5px;
+    height: 70px;
+    width:120px;
+}
+    
+
+    .header .create{
+        display: block;
+    }
+.header .mic{
+    margin-top: px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    
+}
+.block{
+padding: 2px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.sidemenu{
+    padding-top: 10px;
+    
+    width: 150px;
+    height:90%;
+    display: block;
+}
+.block .soul img{
+    height: 50px;
+    width: 55px;
+}
+nav{
+max-width: 800px;
+float: left;
+margin-left: 130px;
+
+}
+
+.x{
+    
+    margin-left: 180px;
+}   
+.container img{
+    height: 190px;
+    width: 310px;
+}
+.container .content{
+     
+     top:200px;}
+.container{
+    
+    height: 300px;
+    width:311px ;
+    
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 0px;
+    
+}
+}
+
+@media only screen and (max-width:912px) {
+
+       body{
+        color: rgb(253, 11, 164);
+        padding: 10px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top: 20px;
+        margin-left: 40px;
+        border-radius: 15px;
+        justify-content: none;
+        margin-bottom: 15px;
+        
+        
+    }
+    .s{
+        width: 40px;
+        height: 40px;
+        
+    }
+    .ss{
+        width: 350px;
+        height: 40px;
+      
+        
+       
+    }
+    .header .image{
+        margin-top: 5px;
+    height: 60px;
+    width:130px;
+}
+    
+
+    .header .create{
+        display: block;
+    }
+.header .mic{
+    margin-top: px;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: block;
+    
+}
+.block{
+padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sidemenu{
+    padding-top: 10px;
+    
+    width: 150px;
+    height: 90%;
+    display: block;
+}
+.block .soul img{
+    height: 50px;
+    width: 55px;
+}
+nav{
+max-width: 730px;
+float: none;
+margin-left: 120px;
+}
+
+.x{
+    float: left;
+    margin-left: 180px;
+}   
+.container img{
+    height: 190px;
+    width: 310px;
+}
+.container .content{
+     
+     top:200px;}
+.container{
+    
+    height: 300px;
+    width:311px ;
+    
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 0px;
+    
+}
+}
+
+
+@media only screen and (max-width:854px) {
+
+       body{
+        color: rgb(3, 175, 255);
+        padding: 10px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top: 30px;
+        margin-left: 40px;
+        border-radius: 15px;
+        justify-content: none;
+        margin-bottom: 15px;
+        
+        
+    }
+    .s{
+        width: 40px;
+        height: 40px;
+        
+    }
+    .ss{
+        width: 270px;
+        height: 40px;
+      
+        
+       
+    }
+    .header .image{
+        margin-top: 5px;
+    height: 60px;
+    width:130px;
+}
+    
+
+    .header .create{
+        display: block;
+    }
+.header .mic{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    
+}
+.block{
+padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sidemenu{
+    padding-top: 10px;
+    
+    width: 150px;
+    height: 1000px;
+}
+.block .soul img{
+    height: 50px;
+    width: 55px;
+}
+nav{
+max-width: 770px;
+padding-left: 160px;
+float: left;
+
+margin-left: 0px;
+
+
+}
+
+.x{
+    float: left;
+    margin-left: 180px;
+}   
+.container img{
+    height: 160px;
+    width: 280px;
+}
+.container .content{
+     
+     top:170px;}
+.container{
+    
+    height: 270px;
+    width:281px ;
+    
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+    
+}
+}
+
+@media only screen and (max-width:821px) {
+
+       body{
+        color: rgb(3, 175, 255);
+        padding: 10px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top: 30px;
+        margin-left: 40px;
+        border-radius: 15px;
+        justify-content: none;
+        margin-bottom: 15px;
+        
+        
+    }
+    .s{
+        width: 40px;
+        height: 40px;
+        
+    }
+    .ss{
+        width: 270px;
+        height: 40px;
+      
+        
+       
+    }
+    .header .image{
+        margin-top: 5px;
+    height: 60px;
+    width:130px;
+}
+    
+
+    .header .create{
+        display: block;
+    }
+.header .mic{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    
+}
+.block{
+padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sidemenu{
+    padding-top: 10px;
+    
+    width: 150px;
+    height: 1000px;
+}
+.block .soul img{
+    height: 50px;
+    width: 55px;
+}
+nav{
+max-width: 770px;
+padding-left: 160px;
+float: left;
+
+margin-left: 0px;
+
+
+}
+
+.x{
+    float: left;
+    margin-left: 170px;
+}   
+.container img{
+    height: 150px;
+    width: 270px;
+}
+.container .content{
+     
+     top:160px;}
+.container{
+    
+    height: 260px;
+    width:271px ;
+    
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+    
+}
+}
+
+@media only screen and (max-width:769px) {
+
+       body{
+        color: rgb(0, 233, 147);
+        padding: 10px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 15px;
+        justify-content: none;
+        margin-bottom: 15px;
+        
+        
+    }
+    .s{
+        width: 40px;
+        height: 40px;
+        
+    }
+    .ss{
+        width: 250px;
+        height: 40px;
+      
+        
+       
+    }
+    .header .image{
+        margin-top: 5px;
+    height: 60px;
+    width:100px;
+}
+    
+
+    .header .create{
+        display: block;
+    }
+.header .mic{
+    margin-top: px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    
+}
+.block{
+padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sidemenu{
+    padding-top: 10px;
+    
+    width: 150px;
+    height: 880px;
+    display: block;
+}
+.block .soul img{
+    height: 50px;
+    width: 55px;
+}
+nav{
+max-width: 730px;
+float: none;
+padding-left: 0px;
+margin-left: 0px;
+}
+
+.x{
+    float: left;
+    margin-left: 170px;
+}   
+.container img{
+    height: 150px;
+    width: 270px;
+}
+.container .content{
+     
+     top:160px;}
+.container{
+    
+    height: 260px;
+    width:271px ;
+    
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+    
+}
+}
+
+ 
+@media only screen and (max-width:541px) {
+
+       body{
+        color: rgb(60, 255, 1);
+        padding: 10px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top: 35px;
+        margin-left: 10px;
+        border-radius: 15px;
+        justify-content: none;
+        
+        
+    }
+    .s{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .ss{
+        width: 180px;
+        height: 30px;
+      
+        
+       
+    }
+    .header .image{
+    height: 30px;
+    width:70px;
+}
+    
+
+    .header .create{
+        display: block;
+    }
+.header .mic{
+    margin-left: 0px;
+    margin-right: 0px;
+    display: none;
+    
+}
+.block{
+padding: 2px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.sidemenu{
+    top: 50px;
+  height: 75%;
+   
+}
+.block .soul img{
+    height: 34px;
+    width: 40px;
+}
+nav{
+max-width: 400px;
+float: none;
+padding-left: 0px;
+margin-left: 100px;
+}
+
+.x{
+    float: none;
+    margin-left: 160px;
+}   
+.container img{
+    height: 220px;
+    width: 340px;
+}
+.container .content{
+     
+     top:230px;}
+.container{
+    width: 341px ;
+    height: 320px;
+    margin-bottom: 0px;
+    
+}
+}
+ 
+@media only screen and (max-width:431px) {
+
+       body{
+        color: rgb(60, 255, 1);
+        padding: 10px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top: 35px;
+        margin-left: 10px;
+        border-radius: 15px;
+        justify-content: none;
+        
+        
+    }
+    .s{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .ss{
+        width: 150px;
+        height: 30px;
+      
+        
+       
+    }
+    .header .image{
+    height: 30px;
+    width:70px;
+}
+    
+
+    .header .create{
+        display: none;
+    }
+.header .mic{
+    margin-left: 0px;
+    margin-right: 0px;
+    display: none;
+    
+}
+.block{
+padding: 2px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.sidemenu{
+    position: absolute;
+    display: none;
+}
+.block .soul img{
+    height: 34px;
+    width: 40px;
+}
+nav{
+max-width: 400px;
+float: none;
+padding-left: 0px;
+margin-left: 0px;
+}
+
+.x{
+    float: none;
+    margin-left: 20px;
+}   
+.container img{
+    height: 220px;
+    width: 340px;
+}
+.container .content{
+     
+     top:230px;}
+.container{
+    width:341px ;
+    height: 320px;
+    margin-bottom: 0px;
+    
+}
+}
+     
+
+
+
+
+@media  (max-width:415px) {
+
+       body{
+        padding: 10px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top: 35px;
+        margin-left: 15px;
+        border-radius: 15px;
+        justify-content: none;
+        
+        
+    }
+    .s{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .ss{
+        width: 140px;
+        height: 30px;
+      
+        
+       
+    }
+    .header .image{
+    height: 30px;
+    width:70px;
+}
+    
+
+    .header .create{
+        display: none;
+    }
+.header .mic{
+    margin-left: 0px;
+    margin-right: 0px;
+    display: none;
+    
+}
+.block{
+padding: 2px;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+.sidemenu{
+    position: absolute;
+    display: none;
+}
+.block .soul img{
+    height: 34px;
+    width: 40px;
+}
+nav{
+max-width: 380px;
+float: none;
+padding-left: 0px;
+margin-left: 0px;
+}
+
+.x{
+    float: none;
+    margin-left: 15px;
+}   
+.container img{
+    height: 220px;
+    width: 340px;
+}
+.container .content{
+     
+     top:230px;}
+.container{
+    width: 341px;
+    height: 320px;
+    margin-bottom: 0px;
+    
+}
+}
+
+ 
+@media only screen and (max-width:391px) {
+
+       body{
+        color: rgb(251, 13, 239);
+        padding: 10px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top: 35px;
+        margin-left: 10px;
+        border-radius: 15px;
+        justify-content: none;
+        
+        
+    }
+    .s{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .ss{
+        width: 130px;
+        height: 30px;
+      
+        
+       
+    }
+    .header .image{
+    height: 30px;
+    width:70px;
+}
+    
+
+    .header .create{
+        display: none;
+    }
+.header .mic{
+    margin-left: 0px;
+    margin-right: 0px;
+    display: none;
+    
+}
+.block{
+padding: 2px;
+    margin-left: 3px;
+    margin-right: 0px;
+}
+.sidemenu{
+    position: absolute;
+    display: none;
+}
+.block .soul img{
+    height: 34px;
+    width: 40px;
+}
+nav{
+max-width: 360px;
+float: none;
+}
+
+.x{
+    float: none;
+    margin-left: 0;
+}   
+.container img{
+    height: 220px;
+    width: 340px;
+}
+.container .content{
+     
+     top:230px;}
+.container{
+    
+    height: 320px;
+    margin-bottom: 0px;
+    
+}
+}
+
+@media  (max-width:376px)  {
+
+    body{
+        color: red;
+        padding: 10px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top: 30px;
+        margin-left: 20px;
+        border-radius: 15px;
+        justify-content: none;
+        margin-left: 5px;
+        
+    }
+    .s{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .ss{
+        width: 120px;
+        height: 30px;
+      
+        
+       
+    }
+    .header .image{
+    height: 30px;
+    width:70px;
+}
+    
+
+    .header .create{
+        display: none;
+    }
+.header .mic{
+    margin-left: 0px;
+    margin-right: 0px;
+    display: none;
+    
+}
+.block{
+padding: 2px;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+.sidemenu{
+    position: absolute;
+    display: none;
+}
+.block .soul img{
+    height: 34px;
+    width: 40px;
+}
+nav{
+max-width: 330px;
+padding-left: 0px;
+margin-left: 0px;
+
+
+}
+
+.x{
+    float: none;
+}   
+.container img{
+    height: 200px;
+    width: 320px;
+}
+.container .content{
+     
+     top:215px;}
+.container{
+    height: 300px;
+    width: 321px;
+    margin-bottom: 0px;
+    
+}
+}
+
+@media only screen and (max-width:361px) {
+
+       body{
+        color: rgb(255, 255, 1);
+        padding: 10px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top: 35px;
+        margin-left: 10px;
+        border-radius: 15px;
+        justify-content: none;
+        
+        
+        
+    }
+    .s{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .ss{
+        width: 100px;
+        height: 30px;
+      
+        
+       
+    }
+    .header .image{
+    height: 30px;
+    width:70px;
+}
+    
+
+    .header .create{
+        display: none;
+    }
+.header .mic{
+    margin-left: 0px;
+    margin-right: 0px;
+    display: none;
+    
+}
+.block{
+padding: 2px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.sidemenu{
+    position: absolute;
+    display: none;
+}
+.block .soul img{
+    height: 34px;
+    width: 40px;
+}
+nav{
+max-width: 330px;
+float: none;
+}
+
+.x{
+    float: none;
+    margin-left: 0px;
+}   
+.container img{
+    height: 210px;
+    width: 330px;
+}
+.container .content{
+     
+     top:230px;}
+.container{
+    width: 331px;
+    height: 310px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+}
+ 
+@media only screen and (max-width:345px) {
+
+       body{
+        color: rgb(255, 255, 1);
+        padding: 10px;
+        padding-top: 120px;
+    }
+    .search{
+        margin-top: 35px;
+        margin-left: 5px;
+        border-radius: 15px;
+        justify-content: none;
+        
+        
+        
+    }
+    .s{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .ss{
+        width: 90px;
+        height: 30px;
+      
+        
+       
+    }
+    .header .image{
+    height: 30px;
+    width:70px;
+}
+    
+
+    .header .create{
+        display: none;
+    }
+.header .mic{
+    margin-left: 0px;
+    margin-right: 0px;
+    display: none;
+    
+}
+.block{
+padding: 2px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.sidemenu{
+    position: absolute;
+    display: none;
+}
+.block .soul img{
+    height: 34px;
+    width: 40px;
+}
+nav{
+max-width: 320px;
+float: none;
+}
+
+.x{
+    float: none;
+    margin-left: 0px;
+}   
+.container img{
+    height: 210px;
+    width: 310px;
+}
+.container .content{
+     
+     top:230px;}
+.container{
+    
+    height: 310px;
+     width: 311px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+}
+    
+  
+ 
+
+  
+
+
+
